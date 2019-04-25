@@ -1,0 +1,14 @@
+<!DOCTYPE hibernate-mapping PUBLIC  
+ "-//Hibernate/Hibernate Mapping DTD 3.1//EN"  
+ "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">  
+  
+ <hibernate-mapping>   
+      <class name="com.task8.pojo.Bye" table="regi">
+        <id column="ID" name="id"/>
+        <property column="USER_NAME" name="userName"/>
+        <property column="PASSWORD" name="password1"/>
+        <property column="EMAIL" name="email"/>
+        <property column="PHONE" name="phone" />
+        <property column="CITY" name="city"/>
+    </class>      
+ </hibernate-mapping>
